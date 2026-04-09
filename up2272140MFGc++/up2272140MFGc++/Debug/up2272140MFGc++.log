@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\samue\source\repos\up2272140MFGc++\up2272140MFGc++\main.cpp(67,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\samue\source\repos\up2272140MFGc++\up2272140MFGc++\main.cpp(72,35): warning C4018: '<': signed/unsigned mismatch
+  up2272140MFGc++.vcxproj -> C:\Users\samue\source\repos\up2272140MFGc++\Debug\up2272140MFGc++.exe
