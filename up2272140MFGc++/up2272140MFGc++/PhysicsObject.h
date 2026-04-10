@@ -1,5 +1,6 @@
 #pragma once
 #include "MyVector2.h"
+#include "AABB.h"
 
 enum class ObjectType{ Circle };
 
@@ -11,10 +12,12 @@ protected:
 	MyVector2 velocity;
 	MyVector2 acceleration;
 	MyVector2 position;
+	
 
 public:
 
 	ObjectType type;
+	AABB AABB;
 
 	void SetMass(float m) { mass = m; }
 	void SetVelocity(float x, float y) { velocity.x = x, velocity.y = y; }
@@ -29,6 +32,8 @@ public:
 	void SetPosition(MyVector2 v) { position = v; }
 	void SetPositionX(float x) { position.x = x; }
 	void SetPositionY(float y) { position.y = y; }
+	
+
 
 	float GetMass() { return mass; }
 	MyVector2 GetVelocity() { return velocity; }

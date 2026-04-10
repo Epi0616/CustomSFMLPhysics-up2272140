@@ -2,8 +2,12 @@
 
 void BroadPhase(std::vector<PhysicsObject> physObjs)
 {
+
 	for (int i = 0; i < physObjs.size(); i++)
 	{
+
+
+
 		for (int j = i + 1; j < physObjs.size(); j++) 
 		{
 

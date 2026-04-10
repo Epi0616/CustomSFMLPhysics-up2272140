@@ -27,7 +27,7 @@ int main()
        
         //c->SetPosition(origin);
         //c->UpdateRenderPosition();
-
+        
         physObjs.push_back(c);
     }
 
@@ -36,6 +36,7 @@ int main()
 
     physObjs[0]->SetPosition(100, 400);
     physObjs[0]->UpdateRenderPosition();
+
     physObjs[1]->SetPosition(origin);
     physObjs[1]->UpdateRenderPosition();
 

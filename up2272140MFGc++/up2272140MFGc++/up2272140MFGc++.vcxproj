@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AABB.cpp" />
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="CollisionManager.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AABB.h" />
     <ClInclude Include="Circle.h" />
     <ClInclude Include="CollisionEvent.h" />
     <ClInclude Include="CollisionManager.h" />
